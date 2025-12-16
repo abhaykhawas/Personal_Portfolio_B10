@@ -7,7 +7,130 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">👨‍💻</div>
+        <div class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </div>
+        <a href="#contact" class="contact-btn">Contact</a>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="welcome-text">WELCOME TO MY WORLD ✨</p>
+            <h1>
+                Hi, I'm <span>Abhay Khawas</span>
+            </h1>
+            <div class="title-highlight">MERN Developer</div>
+            <p class="hero-description">
+                Passionate Full Stack Developer, I create intuitive and visualy appealing web apps.
+                I transform ideas to seamless solution which meets user's expectations.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects">My Projects</a>
+                <a href="#">Download CV</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">💻</a>
+                <a href="#" class="social-icon">🔗</a>
+                <a href="#" class="social-icon">📧</a>
+                <a href="#" class="social-icon">📱</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="profile-placeholder">👨‍💻</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-indicator">↓</div>
+
+    <section class="about-section" id="about">
+        <h2>About me</h2>
+        <div class="about-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsa nostrum rem distinctio architecto, hic fugit adipisci similique perspiciatis sapiente temporibus id quaerat corporis beatae veritatis impedit odio consequuntur dolorem!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia necessitatibus eos debitis ipsum quas rem modi possimus optio quae obcaecati eveniet facere sed odit quaerat ut, at iste vitae?
+
+            </p>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <div class="skill-icon">🍃</div>
+                <h3>MongoDB</h3>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>Express.js</h3>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🌸</div>
+                <h3>React</h3>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📗</div>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>HTML/CSS/JS</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p class="project-desc">
+                    A full-features ecom platform with secure payment processing, product management, order management etc.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Git/Github</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Social Media Dashboard</h3>
+                <p class="project-desc">
+                    An analytics dashboard to get all your social media analytics in one place and automate stuff.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Git/Github</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2>Get In Touch</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your message" required></textarea>
+            <button type="submit" class="submit-btn">Send message</button>
+        </form>
+    </section>
 
     <script src="script.js"></script>
 </body>
