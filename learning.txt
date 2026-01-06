@@ -1,0 +1,50 @@
+Javascripts vs html vs css
+var, let and const
+Data type : Number, string and boolean.  Undefined, Null, Symbol, BigInt.
+Type conversion
+Opertors - Arithmatic Opertor, Comparision operator, Logical operator, ternary operator
+
+if, else, else-if
+Switch
+Loops : for, while, for-in, for-of
+break & continue
+
+functions decation vs expression
+Arrow function (=>)
+parameters & return value
+callbacks (very important)
+IIFE
+
+Scoping (v. imp)
+Hoisting (v. imp)
+Closures (v. imp)
+
+
+Objects -> creating, update, delete, this keyword, Object.key(), Object.values()
+Shallow copy vs deep copy (v imp)
+
+Arrays -> Push, pop, shift, Unshift.   map, filter, reduce.    forEach, find etc...
+Spread operator
+
+
+String -> length, slice, substring;   replace, split, includes, template literal
+
+
+DOM manupulation
+
+
+
+Asynchonus Javascript 
+Async vs sync
+callbacks,
+promise, async/ await
+setTimout(), setInterval
+
+Error handling
+
+
+Advanced topic: 
+call stack 
+memory management
+garbage collection
+currying
